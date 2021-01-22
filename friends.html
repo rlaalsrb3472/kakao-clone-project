@@ -28,19 +28,88 @@
           </div>
     </div>
 
+    <header class="screen-header">
+        <h1 class="screen-header__title">Freinds</h1>
+        <div class="screen-header__icons">
+         <span>
+            <i class="fas fa-search  fa-lg"></i>
+        </span>
+        <span>
+            <i class="fas fa-music fa-lg"></i>
+        </span>
+        <span>
+            <i class="fas fa-cog fa-lg"></i>
+        </span>
+        </div>
+    </header>
+
+    <a id="freinds-display-link">
+        <i class="fas fa-info-circle"></i>
+        Friends' Names Display
+        <i class="fas fa-chevron-right fa-xs"></i>
+    </a>
+
+    <main class="friends-screen">
+        <div class="user-component">
+            <div class="user-component__column">
+                <img src="img/mg.JPG" class="user-component__avatar user-component__avatar--xl" />
+                <div class="user-component__text">
+                    <h4 class="user-component__title">Mingyu</h4>
+                    <!-- <h6 class="user-component__subtitle">Hi</h6> -->
+                </div>
+            </div>
+            <div class="user-component__column"></div>
+        </div>
+        <div class="friends-screen__channel">
+            <div class="friends-screen__channel-header">
+                <span>Channel</span>
+                <i class="fas fa-chevron-up fa-xs"></i>
+            </div>
+            <div class="user-component">
+                <div class="user-component__column">
+                    <img src="img/mg.JPG" class="user-component__avatar user-component__avatar--sm" />
+                    <div class="user-component__text">
+                        <h4 class="user-component__title user-component__title--not-bold">Channel</h4>
+                        <!-- <h6 class="user-component__subtitle">Hi</h6> -->
+                    </div>
+                </div>
+                <div class="user-component__column">
+                    <span>2</span>
+                    <i class="fas fa-chevron-right fa-xs"></i>
+                </div>
+            </div>
+        </div>
+    </main>
+
+   
+
    <nav class="nav">
        <ul class="nav__list">
            <li class="nav__btn">
-               <a class="nav__a" href="friends.html"><i class="far fa-user fa-lg"></i></a>
+               <!-- user Icon -->
+               <a class="nav__link" href="friends.html">
+                   <i class="far fa-user fa-2x"></i>
+                </a>
             </li>
-           <li>
-               <a class="nav__a" href="#"><i class="fas fa-comment fa-lg"></i></a>
+           <li class="nav__btn">
+                <!-- massage Icon -->
+               <a class="nav__link" href="#">
+                   <span class="nav__notification">1</span>
+                   <i class="fas fa-comment fa-2x"></i>
+                </a>
             </li>
-           <li>
-               <a class="nav__a" href="#"><i class="fas fa-search fa-lg"></i></a>
+           <li class="nav__btn">
+               <!-- search Icon -->
+               <a class="nav__link" href="#">
+                   <i class="fas fa-search fa-2x"></i>
+                </a>
             </li>
-           <li>
-               <a class="nav__a" href="#"><i class="fas fa-ellipsis-h fa-lg"></i></a>
+           <li class="nav__btn">
+               <!-- menu Icon -->
+               <a class="nav__link" href="#">
+                   <div class="nav__menu__notification"></div>
+                   <i class="fas fa-ellipsis-h fa-2x"></i>
+                </a>
             </li>
        </ul>
    </nav>
