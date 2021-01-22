@@ -1,4 +1,5 @@
 # Kakao Clone Project Update
 
 +HTML & CSS Project!!
-+freinds page complete!!!
++Freinds page complete!!!
++chats page complete!!!
