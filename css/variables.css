@@ -1,6 +1,8 @@
 :root {
     --yellow: #fae100;
     --horizontal-space: 50px;
+    --main-border: 1px solid rgba(0, 0, 0, 0.2);
+    --font-color: rgba(0, 0, 0, 0.5);
 }
 
 .friends-screen {
