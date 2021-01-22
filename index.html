@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="css/style.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" 
+        href="https://www.kakaocorp.com/resources/favicon.ico" />
+    <title>Welcome to Kakao Clone</title>
+</head>
+<body>
+    <div class="status-bar">
+        <div class="status-bar__column">
+            <span>No service</span>
+            <!-- Wifi Icon -->
+            <i class="fas fa-wifi"></i>
+        </div>
+        <div class="status-bar__column">
+            <span>18:43</span>
+        </div>
+        
+        <div class="status-bar__column">
+            <span>100%</span>
+            <!-- battery Icon -->
+            <i class="fas fa-battery-full fa-lg"></i>
+            <!-- lightning Icon -->
+            <i class="fas fa-bolt"></i>
+          </div>
+        </div>
+
+    <header class="welcome-header">
+        <h1 class="welcome-header__title">Welcome to KaKao Clone</h1>
+        <p class="welcome-header__text">
+            If you have a KaKao Account, log in with your email or phone number.
+        </p>
+    </header>
+
+    <form id="login-form" action="friends.html" method="get">
+        <input required name="username" type="text" placeholder="Email or Phone number" />
+        <input required name="password" type="password" placeholder="password" />
+        <input type="submit" value="Log in" />
+        <a href="#">Find Kakao Account or Password</a>
+    </form>
+
+    <script
+      src="https://kit.fontawesome.com/6478f529f2.js"
+      crossorigin="anonymous">
+    </script>
+</body>
+</html>
