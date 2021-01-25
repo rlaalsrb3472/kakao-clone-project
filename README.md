@@ -4,3 +4,4 @@
 +Freinds page complete!!!
 +chats page complete!!!
 +Find page complete!!!
++More page complete!!!
