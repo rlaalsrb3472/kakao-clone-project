@@ -7,3 +7,4 @@
 +More page complete!!!
 +Settings page complete!!!
 +Chat page complete!!
++add Animation :)
