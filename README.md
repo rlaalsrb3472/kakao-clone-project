@@ -5,3 +5,4 @@
 +chats page complete!!!
 +Find page complete!!!
 +More page complete!!!
++Settings page complete!!!
