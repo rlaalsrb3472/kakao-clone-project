@@ -8,3 +8,4 @@
 +Settings page complete!!!
 +Chat page complete!!
 +add Animation :)
++HTML/CSS complete!!
